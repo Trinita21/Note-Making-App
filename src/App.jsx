@@ -14,7 +14,7 @@ export default function App() {
     getData();
   }, []);
 
-  const API = "https://6218c7ed1a1ba20cbaab1b1f.mockapi.io/api/notes";
+  // const API = "https://6218c7ed1a1ba20cbaab1b1f.mockapi.io/api/notes";
 
   const getData = () => {
     const localData = JSON.parse(localStorage.getItem("note"));
